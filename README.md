@@ -1,6 +1,12 @@
 # grbio
 A Globally Recognized Bio.
 
+---
+[![build status](https://secure.travis-ci.org/elixir-conspiracy/grbio.png)](https://secure.travis-ci.org/elixir-conspiracy/grbio)
+
+
+## Development
+
 To start your Phoenix app:
 
   1. Install dependencies with `mix deps.get`
