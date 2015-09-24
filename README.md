@@ -1,5 +1,5 @@
-# grbio
-A Globally Recognized Bio.  [![build status](https://secure.travis-ci.org/elixir-conspiracy/grbio.png)](https://secure.travis-ci.org/elixir-conspiracy/grbio)
+# grbio [![build status][1]][2]
+A Globally Recognized Bio.
 
 
 ## Development
@@ -21,3 +21,7 @@ Ready to run in production? Please [check our deployment guides](http://www.phoe
   * Docs: http://hexdocs.pm/phoenix
   * Mailing list: http://groups.google.com/group/phoenix-talk
   * Source: https://github.com/phoenixframework/phoenix
+
+
+[1]: https://secure.travis-ci.org/elixir-conspiracy/grbio.png "Build status badge"
+[2]: https://secure.travis-ci.org/elixir-conspiracy/grbio "Build status"
