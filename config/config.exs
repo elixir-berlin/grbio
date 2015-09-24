@@ -27,3 +27,14 @@ import_config "#{Mix.env}.exs"
 config :phoenix, :generators,
   migration: true,
   binary_id: false
+
+# Configure Joken - whatever it is
+config :joken, config_module: Guardian.JWT
+
+# Configure Guardian - authentication library
+config :guardian, Guardian,
+      issuer: "PhoenixGuardian",
+      ttl: { 10, :days },
+      verify_issuer: true,
+      secret_key: "lksdjowiurowieurlkjsdlwwer",
+      serializer: PhoenixGuardian.GuardianSerialize
