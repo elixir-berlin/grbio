@@ -1,0 +1,13 @@
+<div class="jumbotron">
+  <h2>Create an account</h2>
+</div>
+<div class="row marketing">
+  <form action="/create/" method="post">
+    <input type="hidden" name="_csrf_token" value="<%=get_csrf_token() %>">
+    <label>Username
+      <input name="username"></label>
+    <label>Password
+      <input name="password" type="password"></label>
+    <input type="submit">
+</form>
+</div>
