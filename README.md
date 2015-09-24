@@ -1,8 +1,5 @@
 # grbio
-A Globally Recognized Bio.
-
----
-[![build status](https://secure.travis-ci.org/elixir-conspiracy/grbio.png)](https://secure.travis-ci.org/elixir-conspiracy/grbio)
+A Globally Recognized Bio.  [![build status](https://secure.travis-ci.org/elixir-conspiracy/grbio.png)](https://secure.travis-ci.org/elixir-conspiracy/grbio)
 
 
 ## Development
