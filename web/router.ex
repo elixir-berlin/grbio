@@ -17,6 +17,10 @@ defmodule Grbio.Router do
     pipe_through :browser # Use the default browser stack
 
     get "/", PageController, :index
+    get "/login", PageController, :login
+    get "/create", PageController, :create
+    post "/create", PageController, :postcreate
+    post "/login", PageController, :postlogin
   end
 
   # Other scopes may use custom stacks.
