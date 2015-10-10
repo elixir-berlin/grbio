@@ -31,6 +31,7 @@ defmodule Grbio.Mixfile do
   defp deps do
     [{:phoenix, "~> 1.0.2"},
      {:phoenix_ecto, "~> 1.1"},
+     {:guardian, "~> 0.6.2"},
      {:postgrex, ">= 0.0.0"},
      {:phoenix_html, "~> 2.1"},
      {:phoenix_live_reload, "~> 1.0", only: :dev},
